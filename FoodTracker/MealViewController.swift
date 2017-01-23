@@ -59,7 +59,7 @@ class MealViewController: UIViewController, UITextFieldDelegate, UINavigationCon
     @IBAction func selectImageFromPhotoLibrary(_ sender: UITapGestureRecognizer) {
         
         // Hide the keyboard.
-        mailNameTextField.resignFirstResponder()
+        mailNameTextField.resignFirstResponder() 
         
         // UIImagePickerController is a view controller that lets a user pick media from their photo library.
         let imagePickerController = UIImagePickerController()
